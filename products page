@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Products - Arafashia Electronics</title>
+    <style>
+        /* Same styles as index.html */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Arafashia Electronics Dealers</h1>
+        <p>Quality Used TVs & Phones at Affordable Prices</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <section style="padding: 2rem;">
+        <h2 style="text-align: center; margin-bottom: 1rem;">Our Products</h2>
+        
+        <div style="display: flex; justify-content: center; margin-bottom: 2rem;">
+            <button style="padding: 0.5rem 1rem; margin: 0 0.5rem; background: #004080; color: white; border: none; border-radius: 5px;">All Products</button>
+            <button style="padding: 0.5rem 1rem; margin: 0 0.5rem; background: #ccc; border: none; border-radius: 5px;">TVs</button>
+            <button style="padding: 0.5rem 1rem; margin: 0 0.5rem; background: #ccc; border: none; border-radius: 5px;">Phones</button>
+        </div>
+        
+        <div class="products">
+            <!-- More product cards can be added here -->
+            <div class="product-card">
+                <img src="tv3.jpg" alt="Used Sony TV">
+                <div class="product-info">
+                    <h3>Sony 65" 4K TV</h3>
+                    <p>Excellent condition, includes stand</p>
+                    <p class="price">₦250,000</p>
+                </div>
+            </div>
+            
+            <div class="product-card">
+                <img src="phone3.jpg" alt="Used Tecno Phone">
+                <div class="product-info">
+                    <h3>Tecno Camon 18</h3>
+                    <p>128GB, like new</p>
+                    <p class="price">₦75,000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Arafashia Electronics Dealers. All rights reserved.</p>
+        <p>Contact: 08012345678 | Location: 123 Market Street, Arafashia</p>
+    </footer>
+</body>
+</html>
