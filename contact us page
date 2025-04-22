@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Arafashia Electronics</title>
+    <style>
+        /* Same styles as index.html */
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 2rem;
+        }
+        .contact-info, .contact-form {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 1rem;
+            flex: 1;
+            min-width: 300px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            background: #004080;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Arafashia Electronics Dealers</h1>
+        <p>Quality Used TVs & Phones at Affordable Prices</p>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Contact Information</h2>
+            <p style="margin: 1rem 0;"><strong>Address:</strong> 123 Market Street, Arafashia</p>
+            <p style="margin: 1rem 0;"><strong>Phone:</strong> 08012345678, 09087654321</p>
+            <p style="margin: 1rem 0;"><strong>Email:</strong> info@arafashiaelectronics.com</p>
+            <p style="margin: 1rem 0;"><strong>Business Hours:</strong> Monday-Saturday, 9am-6pm</p>
+            
+            <h3 style="margin-top: 2rem;">Visit Our Store</h3>
+            <p>We welcome you to visit our physical store to see our products in person and get expert advice from our staff.</p>
+        </div>
+        
+        <div class="contact-form">
+            <h2>Send Us a Message</h2>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <input type="tel" placeholder="Your Phone Number">
+                <textarea rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2023 Arafashia Electronics Dealers. All rights reserved.</p>
+        <p>Contact: 08012345678 | Location: 123 Market Street, Arafashia</p>
+    </footer>
+</body>
+</html>
